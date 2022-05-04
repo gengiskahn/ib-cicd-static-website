@@ -1,7 +1,7 @@
 pipeline {
      environment {
-       ID_DOCKER = "choco1992"
-       IMAGE_NAME = "static-website-ib"
+       ID_DOCKER = "gengiskahn"
+       IMAGE_NAME = "website-static"
        IMAGE_TAG = "v1"  
        DOCKERHUB_PASSWORD = credentials('dockerhubpassword')
      }
